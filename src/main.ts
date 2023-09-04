@@ -107,7 +107,7 @@ class Engine {
 
   public loadModel(onLoad?: () => void) {
     this.loader.load(
-      "../models/model_2.obj",
+      "/model_2.obj",
       (object) => {
         object.scale.x = 0.1;
         object.scale.y = 0.1;
